@@ -1,0 +1,15 @@
+{
+	"name": "vk Maxwell's theme",
+	"description": "vk Maxwell's theme",
+	"version": "1.0",
+  "manifest_version":2,
+  "content_scripts":[
+    {
+      "matches": ["*://*.vk.com/*"],
+      "run_at": "document_end",
+      "all_frames": true,
+      "js": ["contentScript.js"]
+    }
+  ]
+
+}
