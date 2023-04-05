@@ -27,7 +27,7 @@ root.style.setProperty('--steel_gray_10','black');
 root.style.setProperty('--steel_gray_40','black');
 root.style.setProperty('--gray_900','#a20000');
 root.style.setProperty('background','black');
-document.querySelector(':root [scheme=vkcom_light]').style.setProperty('--vkui--color_text_primary','#b10000');
+document.querySelector(':root [scheme=vkcom_light]').style.setProperty('--vkui--color_text_primary','#d40000');
 
 
 var all = document.getElementsByClassName("nim-dialog nim-dialog_classic");
